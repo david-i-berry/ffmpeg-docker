@@ -1,2 +1,3 @@
 FROM ubuntu:latest
-RUN apt-get update -y && apt-get install ffmpeg
+
+RUN apt-get update -y && apt-get install -y ffmpeg
